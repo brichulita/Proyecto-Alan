@@ -2,7 +2,7 @@ import { Carousel } from "bootstrap";
 import LogoImage from '../img/logo.png';
 import BannerImage from '../img/banner.jpg';
 
-function accesorios() {
+function Accesorios() {
     return (
       <Carousel data-bs-theme="dark">
         <Carousel.Item>
@@ -23,4 +23,4 @@ function accesorios() {
     );
   }
   
-  export default accesorios;
+  export default Accesorios;
