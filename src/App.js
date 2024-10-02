@@ -1,13 +1,14 @@
 
 import './App.css';
 import BasicExample from './Componentes/navbar';
-import Image from './Componentes/imagen';
+import UncontrolledExample from './Componentes/carousel';
+import accesorios from './Componentes/carouselaccesorios';
 function App() {
   return (
     <div className="App">
       <BasicExample></BasicExample>
+      <UncontrolledExample></UncontrolledExample>
       
-      <Image></Image>
     </div>
   );
 }
