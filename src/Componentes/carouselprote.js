@@ -3,36 +3,40 @@ import ProteinastarImage from '../img/proteinastar.jpg';
 import ProteinaenaImage from '../img/proteinaena.png';
 import ProteinabodyImage from '../img/proteinabody.png';
 import ProteinamervickImage from '../img/proteinamervick.jpg';
+import BannerproteinaImage from '../img/bannerproteina.jpg';
 
 function Proteina() {
     return (
       <Carousel data-bs-theme="dark">
         <Carousel.Item>
-        <img src= {ProteinastarImage} alt='' fluid/>
+        <img src= {BannerproteinaImage} height="300px" weight="350px" alt='' fluid/>
+        </Carousel.Item>
+        <Carousel.Item>
+        <img src= {ProteinastarImage} height="300px" weight="350px" alt='' fluid/>
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Proteína Star Nutrition</h3>
+            <p>Precio: $33.000 Sabor: Chocolate Suizo</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-         <img src = {ProteinaenaImage} alt='' fluid/>
+         <img src = {ProteinaenaImage} height="300px" weight="350px" alt='' fluid/>
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Proteína Ena</h3>
+            <p>Precio: $27.000 Sabor: Vainilla</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-         <img src = {ProteinabodyImage} alt='' fluid/>
+         <img src = {ProteinabodyImage} height="300px" weight="350px" alt='' fluid/>
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Proteína Body Advance</h3>
+            <p>Precio: $29.300 Sabor: Vainilla</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-         <img src = {ProteinamervickImage} alt='' fluid/>
+         <img src = {ProteinamervickImage} height="300px" weight="350px" alt='' fluid/>
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Proteína Mervick</h3>
+            <p>Precio: $17.000 Sabor: Vainilla</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

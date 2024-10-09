@@ -5,26 +5,27 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar bg="light" expand="lg" className="fixed-top" >
       <Container>
         <Navbar.Brand href="#home">Inicio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Contacto</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
             <NavDropdown title="Productos" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Accesorios</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="#accesorios">Accesorios</NavDropdown.Item> 
+              <NavDropdown.Item href="#colageno">
                 Colágeno
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Proteína</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="#proteina">Proteína</NavDropdown.Item>
+              <NavDropdown.Item href="#creatina">
                 Creatina
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">Quemador de grasa</NavDropdown.Item>
+              <NavDropdown.Item href="#quemador">Quemador de grasa</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+        <Nav.Link href="#home">Carrito de compras </Nav.Link>
               </Container>
     </Navbar>
   );
