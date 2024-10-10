@@ -20,7 +20,7 @@ function Colageno() {
         <Carousel.Item>
          <img src = {ColagenosaschaImage} alt='' height="300px" weight="350px" fluid/>
           <Carousel.Caption>
-            <h3>Colágeno Sasha Fitness</h3>
+            <h3>Colágeno Sascha Fitness</h3>
             <p>Precio: $16.000</p>
           </Carousel.Caption>
         </Carousel.Item>

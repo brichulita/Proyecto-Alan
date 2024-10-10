@@ -25,7 +25,7 @@ function BasicExample() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <Nav.Link href="#home">Carrito de compras </Nav.Link>
+        <Nav.Link href="#carrito">Carrito de compras </Nav.Link>
               </Container>
     </Navbar>
   );

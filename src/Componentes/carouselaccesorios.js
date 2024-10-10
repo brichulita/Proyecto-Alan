@@ -10,7 +10,7 @@ function Accesorios() {
     return (
         <Carousel data-bs-theme="dark">
             <Carousel.Item>
-                <img src={BanneraccesoriosImage} alt='' height="300px" width="900px" fluid />
+                <img src={BanneraccesoriosImage}  alt='' height="300px" width="900px" fluid />
             </Carousel.Item>
             <Carousel.Item>
                 <img src={StrapsImage} alt='' height="400px" width="500px" fluid />

@@ -7,6 +7,8 @@ import Colageno from './Componentes/carouselcolageno';
 import Creatina from './Componentes/carouselcreatina';
 import Proteina from './Componentes/carouselprote';
 import Quemador from './Componentes/carouselquema';
+import ProductoDisponible from './Componentes/ProductoDisponible';
+import Carrito from './Componentes/carrito';
 
 function App() {
   return (
@@ -29,6 +31,10 @@ function App() {
       </div>
       <div id='quemador'>
       <Quemador></Quemador>
+      </div>
+      <div id= 'carrito'>
+      <ProductoDisponible></ProductoDisponible>
+      <Carrito></Carrito>
       </div>
       <footer id='contacto' style={{ backgroundColor: '#333', color: '#fff', padding: '20px', textAlign: 'center' }}>
         <div>
